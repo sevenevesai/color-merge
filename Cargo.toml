@@ -1,0 +1,20 @@
+[package]
+name = "color-merge"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Threshold-based perceptual color merging for images. Specify a Delta E distance — palette size derives from content."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sevenevesai/color-merge"
+keywords = ["color", "palette", "pixel-art", "delta-e", "image"]
+categories = ["graphics", "multimedia::images", "game-development"]
+readme = "README.md"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+[dev-dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+[lints.rust]
+unsafe_code = "forbid"
