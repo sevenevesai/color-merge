@@ -6,6 +6,7 @@ rust-version = "1.85"
 description = "Threshold-based perceptual color merging for images. Specify a Delta E distance — palette size derives from content."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/sevenevesai/color-merge"
+homepage = "https://seveneves.ai/crates/"
 keywords = ["color", "palette", "pixel-art", "delta-e", "image"]
 categories = ["graphics", "multimedia::images", "game-development"]
 readme = "README.md"
