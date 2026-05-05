@@ -100,7 +100,7 @@ pub(crate) fn build_color_map(
     }
 
     let mut items: Vec<_> = color_counts.into_iter().collect();
-    items.sort_by(|a, b| b.1.cmp(&a.1));
+    items.sort_by_key(|item| std::cmp::Reverse(item.1));
 
     let mut clusters: Vec<Cluster> = Vec::new();
 
